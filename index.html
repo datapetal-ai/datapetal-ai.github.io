@@ -1,51 +1,243 @@
 <!DOCTYPE html>
-<html>
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
+<html lang="en" data-bs-theme="dark">
 
-.bgimg {
-  background-image: url('https://raw.githubusercontent.com/datapetal-ai/datapetal-ai.github.io/main/datapetal_logo_v0.png');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  color: white;
-  font-family: "Courier New", Courier, monospace;
-  font-size: 25px;
-}
+<head>
+	<!-- Required meta tags -->
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-.topleft {
-  position: absolute;
-  top: 0;
-  left: 16px;
-}
+	<!-- Title -->
+	<title>Datapetal - We provide businesses with ownership and control of their individual AI coworker.</title>
 
-.bottomleft {
-  position: absolute;
-  bottom: 0;
-  left: 16px;
-}
+	<!-- SEO meta tags -->
+	<meta name="description" content="Author: Datapetal" />
 
-.middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+	<!-- Favicon -->
+	<link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
 
-hr {
-  margin: auto;
-  width: 40%;
-}
-</style>
+	<!-- CSS -->
+	<link rel="stylesheet" href="assets/css/plugins.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
 <body>
+	<div class="wrapper d-flex flex-column justify-between">
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+			<div class="container">
+				<!-- Logo -->
+				<a class="navbar-brand" href="index.html">
+					<img src="assets/images/logo.svg" alt="" width="165" />
+				</a>
 
-<div class="bgimg">
-</div>
+				<!-- Navbar toggler button -->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+					aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+					<div class="navbar-toggler-icon">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</button>
+
+				<!-- Navbar content -->
+				<div class="collapse navbar-collapse" id="navbarContent">
+					<div class="ms-lg-auto d-flex flex-column flex-lg-row align-lg-center gap-4 gap-lg-10 p-2 p-lg-0">
+						<ul class="navbar-nav gap-lg-2 gap-xl-5">
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Home</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<main class="flex-grow-1">
+			<!-- Hero -->
+			<section class="hero-section style-1 py-10 py-lg-15 overflow-hidden">
+				<div class="container">
+					<div class="row justify-center">
+						<div class="col-lg-9">
+							<div class="text-center">
+								<div class="position-relative z-1">
+									<p class="text-primary" data-aos="fade-up-sm">The Datapetal platform</p>
+									<h1 class="text-white mb-8" data-aos="fade-up-sm" data-aos-delay="150">
+										Empowers every company to <br />
+
+										<span class="text-gradient-1 typed-animation"
+											data-strings='["create and own their AI assistant", "train specific LLMs with full data control", "Integrate AI seamlessly in their workflow"]'></span>
+									</h1>
+									<a href="https://discord.gg/quDvuRZtwc" target="_blank"
+										class="btn btn-lg btn-gradient" data-aos="fade-up-sm" data-aos-delay="200">Join
+										the conversation</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- FAQ -->
+			<section class="py-10 py-lg-15">
+				<div class="container">
+					<div class="row justify-center mb-18">
+						<div class="col-lg-10">
+							<div class="text-center">
+								<h1 class="text-white mb-0" data-aos="fade-up-sm" data-aos-delay="50">
+									Questions? <br class="d-none d-md-block" />
+									We have Answers!
+								</h1>
+							</div>
+						</div>
+					</div>
+
+					<div class="row justify-center">
+						<div class="col-lg-8" data-aos="fade-up-sm" data-aos-delay="100">
+							<div class="accordion accordion-flush d-flex flex-column gap-6" id="faqAccordion">
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#faq-collapseOne"
+											aria-expanded="false" aria-controls="faq-collapseOne">
+											<span class="icon"></span>
+											What is the focus of Datapetal?
+										</button>
+									</h2>
+									<div id="faq-collapseOne" class="accordion-collapse collapse"
+										data-bs-parent="#faqAccordion">
+										<div class="accordion-body">
+											Datapetal develops a platform of advanced AI agents that enhance
+											collaboration and teamwork within project environments. Our intelligent
+											agents seamlessly integrate with human teams and interfaces a broad set of
+											tools, optimizing communication, coordination, and productivity.
+										</div>
+									</div>
+								</div>
+
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#faq-collapseTwo"
+											aria-expanded="false" aria-controls="faq-collapseTwo">
+											<span class="icon"></span>
+											How can our AI agents benefit your company?
+										</button>
+									</h2>
+									<div id="faq-collapseTwo" class="accordion-collapse collapse"
+										data-bs-parent="#faqAccordion">
+										<div class="accordion-body">
+											Our AI agents bring numerous benefits to your company. They facilitate
+											smoother interactions among team members, streamline workflow processes, and
+											interface with a broad set of tools and applications. By leveraging the
+											power of artificial intelligence, our agents help unlock the full potential
+											of your team and boosts productivity.
+										</div>
+									</div>
+								</div>
+
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#faq-collapseThree"
+											aria-expanded="false" aria-controls="faq-collapseThree">
+											<span class="icon"></span>
+											How do our AI agents work?
+										</button>
+									</h2>
+									<div id="faq-collapseThree" class="accordion-collapse collapse"
+										data-bs-parent="#faqAccordion">
+										<div class="accordion-body">
+											Our AI agents utilize large language models to understand the unique
+											objectives and requirements of your projects. They interact with each other,
+											adapt to changing circumstances, and seamlessly collaborate with human team
+											members. This enables them to reduce the workload of your team, providing
+											valuable insights, suggestions and support.
+										</div>
+									</div>
+								</div>
+
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#faq-collapseFour"
+											aria-expanded="false" aria-controls="faq-collapseFour">
+											<span class="icon"></span>
+											What industries can benefit from our AI agents?
+										</button>
+									</h2>
+									<div id="faq-collapseFour" class="accordion-collapse collapse"
+										data-bs-parent="#faqAccordion">
+										<div class="accordion-body">
+											Our AI agents are designed to cater to a wide range of industries. Whether
+											you operate in technology, finance, healthcare, manufacturing, or any other
+											sector where teamwork is crucial, our agents can revolutionize your
+											collaboration processes. They adapt to diverse project environments and
+											empower your team to achieve greater efficiency, innovation and success.
+										</div>
+									</div>
+								</div>
+
+								<div class="accordion-item">
+									<h2 class="accordion-header">
+										<button class="accordion-button collapsed" type="button"
+											data-bs-toggle="collapse" data-bs-target="#faq-collapseFive"
+											aria-expanded="false" aria-controls="faq-collapseFive">
+											<span class="icon"></span>
+											How can you get started with our AI agents?
+										</button>
+									</h2>
+									<div id="faq-collapseFive" class="accordion-collapse collapse"
+										data-bs-parent="#faqAccordion">
+										<div class="accordion-body">
+											Reach out to our team through contact@datapetal.ai. We like to understand
+											your specific needs and objectives. In a meeting we can discuss the
+											datapetal platform can help your company in the most effective way.
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<!-- Footer -->
+		<footer class="footer bg-striped pt-10 pt-lg-15">
+			<div class="container">
+				<div class="row g-10">
+					<div class="col-lg-9 col-xl-8 order-lg-2">
+						<div class="row g-6">
+						</div>
+					</div>
+					<div class="col-lg-3 order-lg-1 me-auto">
+						<div class="footer-widget text-center text-lg-start">
+							<a href="">
+								<img src="assets/images/logo2.svg" alt="" class="img-fluid" width="135" />
+							</a>
+							<p class="fs-sm mb-0 mt-4">
+								We provide businesses with ownership and control of their individual AI coworker.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="text-center py-6 mt-8">
+					<p class="fs-sm mb-0">Copyright <span class="text-primary">Datapetal</span> 2023</p>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+
+	<!-- JS -->
+	<script src="assets/js/plugins.js"></script>
+	<script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
